@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <!-- <script src="./source/hello.js"></script>
+    <script src="./source/world.js"></script> -->
+  </head>
+  <body>
+    <h1>Hello, Webpack</h1>
+    <div id="root"></div>
+    <script type="module">
+      import helloWord from "./source/hello.js";
+      import worldWord from "./source/world.js";
+      document.querySelector("#root").innerHTML = `${helloWord} ${worldWord}`;
+    </script>
+  </body>
+</html>
