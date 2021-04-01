@@ -5,7 +5,8 @@
   "author": "jay <cho2304@naver.com>",
   "license": "MIT",
   "scripts": {
-    "webpack": "npx webpack --config webpack.config.js"
+    "webpack": "npx webpack --config webpack.config.js",
+    "webpack:prod": "npx webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
     "webpack": "^5.28.0",
